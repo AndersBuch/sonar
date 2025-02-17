@@ -1,13 +1,13 @@
 function processData(data) {
   // Duplicated code
-  for(var i = 0; i < data.length; i++) {
+  for(let i = 0; i < data.length; i++) {
       if(data[i].type == "A") {
           processTypeA(data[i]);
       }
   }
   
   // More duplicated code
-  for(var i = 0; i < data.length; i++) {
+  for(let i = 0; i < data.length; i++) {
       if(data[i].type == "B") {
           processTypeB(data[i]);
       }
